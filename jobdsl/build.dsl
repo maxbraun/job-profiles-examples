@@ -1,5 +1,5 @@
 job('${identifier}') {
-    displayname('${name}')
+    displayName('${name}')
     scm {
         svn('${scm}')
         credentialsId('${scmCredentials}')
